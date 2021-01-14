@@ -1,0 +1,6 @@
+server:
+  port: 8104
+
+
+uri:
+  ConsultarUsuario: "http://localhost:8076"

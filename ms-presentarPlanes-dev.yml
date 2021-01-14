@@ -1,0 +1,9 @@
+server:
+  port: 8100
+
+
+# SERVICIOS A CONSUMIR
+uri:
+  
+  es-plancomercial: "http://rgt-es-plancomercial:8075"
+  es-valoresconfigurables: "http://rgt-es-valoresconfigurables:8051" 

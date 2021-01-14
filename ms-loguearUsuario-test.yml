@@ -1,0 +1,12 @@
+server:
+  port: 8103
+
+# OpenAPI 
+springdoc:
+  packages-to-scan: com.righttek.ms.loguearusuario.controller
+
+# SERVICIOS A CONSUMIR
+uri:
+
+  es-usuario:        "http://rgt-es-usuario:8055"
+  es-historicomovil: "http://rgt-es-historicomovil:8077"

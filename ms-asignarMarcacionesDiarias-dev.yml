@@ -1,0 +1,15 @@
+server:
+  port: 8091
+
+# ESPECIFICACIONES DE KAFKA
+spring:
+  kafka:
+    bootstrap-servers: broker:9093
+    consumer:
+      group-id: myGroup
+
+# SERVICIOS A CONSUMIR
+uri:
+  empleado: "http://rgt-es-empleado:8072"
+  horario: "http://rgt-es-horario:8074"
+  marcacion: "http://rgt-es-marcacion:8071"

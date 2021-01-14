@@ -1,0 +1,9 @@
+server:
+  port: 8081
+PARAMETRO:
+  SFTPHOST : "10.35.2.184"
+  SFTPPASS : "vagrant"
+  SFTPPORT : "22"
+  SFTPUSER : "vagrant"
+
+

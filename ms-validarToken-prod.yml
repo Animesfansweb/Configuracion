@@ -1,0 +1,11 @@
+server:
+  port: 8108
+
+# OpenAPI 
+springdoc:
+  packages-to-scan: com.righttek.ms.validartoken.controller
+
+# SERVICIOS A CONSUMIR
+uri:
+
+  es-token:        "http://rgt-es-token:8061"

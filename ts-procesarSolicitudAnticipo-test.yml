@@ -1,0 +1,15 @@
+server:
+  port: 8204
+  
+# OpenAPI 
+springdoc:
+  packages-to-scan: com.righttek.ts.procesarsolicitudanticipo.controller
+
+
+uri:
+  es-empleado: "http://rgt-es-empleado:8072"
+                            
+  es-plantillanotificacion: "http://rgt-es-plantillanotificacion:8079"
+  es-solicitud: "http://rgt-es-solicitudAnticipo:8057"
+  us-nominaexterna: "http://rgt-us-nominaexterna:8082"
+  us-enviarcorreo: "http://rgt-us-enviarcorreo:8083"

@@ -1,0 +1,6 @@
+server:
+  port: 8107
+
+uri:
+
+  es-token: http://localhost:8061

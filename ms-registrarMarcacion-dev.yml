@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+# OpenAPI 
+springdoc:
+  packages-to-scan: com.righttek.ms.registrarmarcacion.controller
+
+# SERVICIOS A CONSUMIR
+uri:
+  ConsultarUbicacionMarcacion: "http://192.168.100.67:8053" #"http://rgt-es-ubicacion:8053"
+  CrearMarcaciones: "http://192.168.100.67:8071" #"http://rgt-es-marcacion:8071"
+  ConsultarUsuarioPorEmail: "http://192.168.100.67:8076" #"http://rgt-es-usuario:8076"
+validaciones:
+  radio: 55555555555

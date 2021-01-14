@@ -1,0 +1,12 @@
+server:
+  port: 8105
+
+# OpenAPI 
+springdoc:
+  packages-to-scan: com.righttek.ms.registrarubicacionusuario.controller
+
+# SERVICIOS A CONSUMIR
+uri:
+  EnviarCorreo: "http://rgt-us-enviarcorreo:8055"
+  CrearUbicacion: "http://rgt-es-ubicacion:8053"
+  ConsultarUsuarioPorId: "http://rgt-es-usuario:8055"

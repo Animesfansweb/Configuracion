@@ -1,0 +1,15 @@
+server:
+  port: 8094
+
+# ESPECIFICACIONES DE KAFKA
+spring:
+  kafka:
+    bootstrap-servers: broker:9093
+    consumer:
+      group-id: myGroup
+
+# SERVICIOS A CONSUMIR
+uri:
+  nomina-externa: "http://rgt-us-nominaexterna:8082"
+  esfuerzo-laboral: "http://rgt-es-esfuerzolaboral:8073"
+  marcacion: "http://rgt-es-marcacion:8071"

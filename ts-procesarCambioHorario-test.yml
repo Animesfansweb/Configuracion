@@ -1,0 +1,11 @@
+server:
+  port: 8206
+  
+# SERVICIOS A CONSUMIR
+uri:
+  empleado: "http://rgt-es-empleado:8072"
+  plantillaNotificacion: "http://rgt-es-plantillanotificacion:8079"
+  horario: "http://rgt-es-horario:8074"
+  horarioEmpleado: "http://rgt-es-horarioempleado:8093"
+  solicitudCambioHorario: "http://rgt-es-solicitudcambiohorario:8059"
+  enviarCorreo: "http://rgt-us-enviarcorreo:8889"

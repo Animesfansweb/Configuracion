@@ -1,0 +1,20 @@
+server:
+  port: 8101
+spring:
+  jackson:
+    date-format: com.righttek.ms.activarsubscripcion.RFC3339DateFormat
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+# SERVICIOS A CONSUMIR
+uri:
+  ActualizarSubscripcionComercial: "http://rgt-es-subscripcioncomercial:8054"
+  ConsultarCaracteristicasPorPlanComercial: "http://rgt-es-plancomercia:8075"
+  ConsultarEmpresaPorId: "http://rgt-es-empresa:8076"
+  ConsultarPagoPorOrden: "http://rgt-es-pago:8078"
+  ConsultarPlantillasNotificacionPorNombre: "http://rgt-es-plantillanotificacion:8079"
+  ConsultarSubscripcionComercialPorId: "http://rgt-es-subscripcioncomercial:8054"
+  ConsultarUsuarioPorEmail: "http://rgt-es-usuario:8055"
+  ConsultarValores: "http://rgt-es-valoresconfigurables:8051"
+  CrearCaracteristicasSubscripcion: "http://rgt-es-caracteristicassubscripcion:8050"
+  CrearParametrosEmpresa: "http://rgt-es-valoresconfigurables:8051"
+  EnviarCorreo: "http://rgt-us-enviarcorreo:8056"

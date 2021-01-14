@@ -1,0 +1,6 @@
+server:
+  port: 8104
+
+# SERVICIOS A CONSUMIR
+uri:
+  ConsultarUsuario: "http://rgt-es-usuario:8055"

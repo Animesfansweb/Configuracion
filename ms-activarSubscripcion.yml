@@ -1,0 +1,20 @@
+server:
+  port: 8087
+spring:
+  jackson:
+    date-format: com.righttek.ms.activarsubscripcion.RFC3339DateFormat
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+# SERVICIOS A CONSUMIR
+uri:
+  ActualizarSubscripcionComercial: "http://192.168.100.67:8071"
+  ConsultarCaracteristicasPorPlanComercial: "http://192.168.100.67:8075"
+  ConsultarEmpresaPorId: "http://192.168.100.67:8076"
+  ConsultarPagoPorOrden: "http://192.168.100.67:8076"
+  ConsultarPlantillasNotificacionPorNombre: "http://192.168.100.67:8075"
+  ConsultarSubscripcionComercialPorId: "http://192.168.100.67:8083"
+  ConsultarUsuarioPorEmail: "http://192.168.100.67:8071"
+  ConsultarValores: "http://192.168.100.67:8043"
+  CrearCaracteristicasSubscripcion: "http://192.168.100.67:8051"
+  CrearParametrosEmpresa: "http://192.168.100.67:8071"
+  EnviarCorreo: "http://192.168.100.67:8071"

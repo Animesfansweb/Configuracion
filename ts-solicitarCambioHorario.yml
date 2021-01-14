@@ -1,0 +1,9 @@
+server:
+  port: 8068
+  
+# SERVICIOS A CONSUMIR
+uri:
+  plantillaNotificacion: "http://localhost:8075"
+  solicitud: "http://localhost:8054"
+  cargaArchivo: "http://localhost:8032"
+  Parametros: "http://localhost:8042"

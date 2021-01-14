@@ -1,0 +1,10 @@
+server:
+  port: 8202
+  
+# SERVICIOS A CONSUMIR
+uri:
+  plantillaNotificacion: "http://rgt-es-plantillanotificacion:8079"
+  solicitud: "http://rgt-es-solicitudcambiohorario:8059"
+  cargaArchivo: "http://rgt-us-archivo:8081"
+  Parametros: "http://rgt-es-valoresconfigurables:8051"
+  us-enviarcorreo: "http://rgt-us-enviarCorreo:8083"

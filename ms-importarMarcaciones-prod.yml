@@ -1,0 +1,11 @@
+server:
+  port: 8090
+
+# OpenAPI 
+springdoc:
+  packages-to-scan: com.righttek.ms.importarMarcaciones.controller
+
+# SERVICIOS A CONSUMIR
+uri:
+  marcaciones-externas: "http://rgt-us-marcacionesexternas:8080"
+  marcacion: "http://rgt-es-marcacion:8071"

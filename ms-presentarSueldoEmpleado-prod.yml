@@ -1,0 +1,7 @@
+server:
+  port: 8106
+  
+# SERVICIOS A CONSUMIR
+uri:
+  empleado: "http://rgt-es-empleado:8072"
+  nominaExterna: "http://rgt-us-nominaexterna:8082"
