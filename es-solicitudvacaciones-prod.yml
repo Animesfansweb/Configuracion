@@ -1,13 +1,10 @@
 server:
-  port: 8075
-springdoc:
-  packages-to-scan: com.righttek.es.plantillanotificacion.controller
-  pathsToMatch: /v1, /api/es/plantillaNotificacion/**
+  port: 8001
 
 # CONECCION A BASE DE DATOS
 spring:
   datasource:
-    url: jdbc:postgresql://localhost/GOTALENT
+    url: jdbc:postgresql://${SERVER_POSTGRES}:5431/postgres
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
@@ -15,7 +12,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
     properties:
       jdbc:
         lob:

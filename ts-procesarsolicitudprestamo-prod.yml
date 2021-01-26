@@ -1,0 +1,11 @@
+server:
+  port: 8210
+  
+# SERVICIOS A CONSUMIR
+uri:
+    es-empleado: "http://rgt-es-empleado:8072"
+    es-solicitudprestamo: "http://rgt-es-solicitudprestamo:8062"
+    es-plantillanotificaciones: "http://rgt-es-plantillanotificacion:8079"
+    us-nominaexterna: "http://rgt-us-nominaexterna:8082"
+    us-solicitudlegado: "http://rgt-us-solicitudlegado:8085"
+    us-enviarcorreo: "http://rgt-us-enviarcorreo:8083"
