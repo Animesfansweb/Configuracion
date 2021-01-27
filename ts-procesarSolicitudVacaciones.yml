@@ -1,10 +1,6 @@
 server:
   port: 8225
   
-# OpenAPI 
-springdoc:
-  packages-to-scan: com.righttek.ts.procesarsolicitudanticipo.controller
-
 
 uri:
   es-empleado: http://localhost:8072
