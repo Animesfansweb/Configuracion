@@ -12,4 +12,4 @@ uri:
   es-solicitud: http://localhost:8001
   us-nominaexterna: http://localhost:8082
   us-enviarcorreo: http://localhost:8889
-
+  us-solicitudLegado: http://localhost:8085
