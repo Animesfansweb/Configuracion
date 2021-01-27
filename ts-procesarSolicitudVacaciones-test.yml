@@ -1,19 +1,15 @@
 server:
-  port: 1600
-  
-# CONECCION A BASE DE DATOS
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost/TEST_GOTALENT
-    username: postgres
-    password: root
-    driver-class-name: org.postgresql.Driver
-# Hibernate ddl auto (create, create-drop, validate, update)
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      jdbc:
-        lob:
-          non_contextual_creation: true
+  port: 8204
+
+# OpenAPI 
+springdoc:
+  packages-to-scan: com.righttek.ts.procesarsolicitudanticipo.controller
+
+
+uri:
+  es-empleado: http://localhost:8072
+  es-plantillanotificacion: http://localhost:8075
+  es-solicitud: http://localhost:8001
+  us-nominaexterna: http://localhost:8082
+  us-enviarcorreo: http://localhost:8889
+
