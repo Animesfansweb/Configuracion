@@ -7,3 +7,4 @@ uri:
   es-solicitud: http://localhost:8057
   us-nominaexterna: http://localhost:8082
   us-enviarcorreo: http://localhost:8889
+  solicitudLegado: http://localhost:8885
