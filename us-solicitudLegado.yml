@@ -4,9 +4,9 @@ server:
 # CONECCION A BASE DE DATOS
 spring:
   datasource:
-    url: jdbc:sqlserver://10.35.2.43\\MSSQLSERVER1;databaseName=gotalentRTNewProducPre
-    username: Arquitectos
-    password: P@ssw0rd1
+    url: jdbc:sqlserver://DESKTOP-P62UC09\\SQLEXPRESS;databaseName=GotalentRTQA
+    username: sa
+    password: Pa$$w0rd
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 # Hibernate ddl auto (create, create-drop, validate, update)
   hibernate:
