@@ -1,7 +1,7 @@
 server:
   port: 8225
   
-
+ 
 uri:
   es-empleado: http://localhost:8072
   es-plantillanotificacion: http://localhost:8075

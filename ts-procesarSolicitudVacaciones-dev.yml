@@ -1,15 +1,11 @@
 server:
-  port: 8204
-
-# OpenAPI 
-springdoc:
-  packages-to-scan: com.righttek.ts.procesarsolicitudanticipo.controller
-
-
+  port: 8225
+  
+ 
 uri:
-  es-empleado: http://localhost:8072
-  es-plantillanotificacion: http://localhost:8075
-  es-solicitud: http://localhost:8001
-  us-nominaexterna: http://localhost:8082
-  us-enviarcorreo: http://localhost:8889
-
+  es-empleado: http://rgt-es-empleado:8072
+  es-plantillanotificacion: http://rgt-es-plantillanotificacion:8079
+  es-solicitud: http://rgt-es-solicitudvacaciones:8001
+  us-nominaexterna: http://rgt-us-nominaexterna:8082
+  us-enviarcorreo: http://rgt-us-enviarcorreo:8083
+  us-solicitudLegado: http://rgt-us-solicitudlegado:8085
