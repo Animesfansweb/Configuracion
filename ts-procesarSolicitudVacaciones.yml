@@ -5,7 +5,7 @@ server:
 uri:
   es-empleado: https://api.dev.empleado.rgt.com
   es-plantillanotificacion: https://api.dev.plantillanotificacion.rgt.com
-  es-solicitud: https://api.dev.solicitudvacaciones.rgt.com/
+  es-solicitud: http://localhost:8001
   us-nominaexterna: https://api.dev.nominaexterna.rgt.com
   us-enviarcorreo: https://api.dev.enviarcorreo.rgt.com
   us-solicitudLegado: http://localhost:8085
