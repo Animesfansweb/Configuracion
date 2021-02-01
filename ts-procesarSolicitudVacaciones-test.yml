@@ -1,5 +1,5 @@
 server:
-  port: 8204
+  port: 8208
 
 uri:
   es-empleado: http://rgt-es-empleado:8072
