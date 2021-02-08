@@ -1,0 +1,18 @@
+server:
+  port: 8207
+
+# OpenAPI 
+springdoc:
+  packages-to-scan: com.righttek.ts.solicitarvacaciones.controller
+  
+  
+# SERVICIOS A CONSUMIR
+uri:
+  empleado: "http://rgt-es-empleado:8072"
+  valoresConfigurables: "http://rgt-es-valoresconfigurables:8051"
+  plantillaNotificacion: "http://rgt-es-plantillanotificacion:8079"
+  solicitudVacaciones: "http://rgt-es-solicitudvacaciones:8001"
+  us-enviarcorreo: "http://rgt-us-enviarcorreo:8083"
+  cargaArchivo: "http://rgt-us-archivo:8081"
+  solicitudLegado: "http://rgt-us-solicitudlegado:8085"
+  nominaExterna: "http://rgt-us-nominaexterna:8082"

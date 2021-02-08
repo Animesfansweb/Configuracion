@@ -1,0 +1,11 @@
+server:
+  port: 8211
+  
+# SERVICIOS A CONSUMIR
+uri:
+  empleado: "http://rgt-es-empleado:8072"
+  cargaArchivo: "http://rgt-us-archivo:8081"
+  valoresConfigurables: "http://rgt-es-valoresconfigurables:8051"
+  plantillaNotificacion: "http://rgt-es-plantillanotificacion:8079"
+  solicitudJustificacionAtraso: "http://rgt-es-solicitudjustificacionatraso:8059"
+  enviarCorreo: "http://rgt-us-enviarCorreo:8083"
