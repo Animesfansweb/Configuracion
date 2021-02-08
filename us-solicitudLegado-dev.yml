@@ -4,7 +4,7 @@ server:
 # CONECCION A BASE DE DATOS
 spring:
   datasource:
-    url: jdbc:sqlserver://DESKTOP-P62UC09\\SQLEXPRESS;databaseName=GotalentRTQA
+    url: jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=GotalentRTQA
     username: sa
     password: Pa$$w0rd
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
