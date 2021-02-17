@@ -1,0 +1,9 @@
+server:
+  port: 8110
+
+uri:
+  es-valoresconfigurable: "http://rgt-es-valoresconfigurables:8051"
+  es-solicitudes: "http://rgt-es-solicitud:8052"
+  es-empleado: "http://rgt-es-empleado:8072"  
+  es-plantillanotificacion: "http://rgt-es-plantillanotificacion:8079"
+  us-enviarcorreo: "http://rgt-us-enviarcorreo:8889"

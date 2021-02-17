@@ -1,0 +1,8 @@
+server:
+  port: 8108
+  
+# SERVICIOS A CONSUMIR
+uri:
+  nominaExterna: "http://rgt-us-nominaexterna:8082"
+  rol: "http://rgt-es-rol:8063"
+  usuario: "http://rgt-es-usuario:8055"
