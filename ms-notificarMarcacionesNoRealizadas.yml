@@ -1,0 +1,9 @@
+server:
+  port: 8111
+
+uri:
+  es-equipotrabajo: "http://localhost:8068"
+  es-marcacion: "http://localhost:8071"
+  es-empleado: "http://localhost:8072"  
+  es-plantillanotificacion: "http://localhost:8075"
+  us-enviarcorreo: "http://localhost:8889"

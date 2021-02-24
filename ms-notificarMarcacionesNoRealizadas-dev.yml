@@ -1,0 +1,9 @@
+server:
+  port: 8111
+
+uri:
+  es-equipotrabajo: "http://rgt-es-equipotrabajo:8068"
+  es-marcacion: "http://rgt-es-marcacion:8071"
+  es-empleado: "http://rgt-es-empleado:8072"  
+  es-plantillanotificacion: "http://rgt-es-plantillanotificacion:8079"
+  us-enviarcorreo: "http://rgt-us-enviarcorreo:8889"
